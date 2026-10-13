@@ -1,0 +1,8 @@
+node_modules/
+desktop/dist/
+desktop/dist-electron/
+android/.gradle/
+android/local.properties
+android/**/build/
+.idea/
+.DS_Store

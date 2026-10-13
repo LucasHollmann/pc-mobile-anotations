@@ -1,0 +1,14 @@
+{
+  "name": "pc-mobile-anotations",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "desktop"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace desktop",
+    "build": "npm run build --workspace desktop",
+    "check": "npm run check --workspace desktop",
+    "test": "npm test --workspace desktop"
+  }
+}
